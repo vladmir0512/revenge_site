@@ -1,0 +1,54 @@
+{% extends "main/base.html" %}
+
+{% block content %}
+
+    <main>
+        <div class="container-fluid">
+            <div class="parent">
+                <div class="block">
+
+
+                    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+                        
+                        <div>
+                            <img class="mascot" src="https://wp-s.ru/wallpapers/5/18/289291145046987/evropejskaya-koshka-dikij-vzglyad.jpg?scale=1" alt="Маскот" width="250" height="200" >   
+                            <p style="color:white;">Маскот</p>
+                        </div>
+                        
+                        <div>
+                            <img class="schedule" src="https://wp-s.ru/wallpapers/5/18/289291145046987/evropejskaya-koshka-dikij-vzglyad.jpg?scale=1" alt="Маскот" width="100" height="100">   
+                            <a href="{% url 'schedule' %}" >Расписание</a>
+                        </div>
+    
+                        <div>
+                            <img class="rules" src="https://wp-s.ru/wallpapers/5/18/289291145046987/evropejskaya-koshka-dikij-vzglyad.jpg?scale=1" alt="Маскот" width="100" height="100">   
+                            <a href="{% url 'rules' %}" >Правила и инфа</a>
+                        </div>
+
+                        <div>
+                            <img class="arts" src="https://wp-s.ru/wallpapers/5/18/289291145046987/evropejskaya-koshka-dikij-vzglyad.jpg?scale=1" alt="Маскот" width="100" height="100">   
+                            <a href="{% url 'arts' %}" >Арты</a>
+                        </div>
+                        
+                        <div>
+                            <img class="members" src="https://wp-s.ru/wallpapers/5/18/289291145046987/evropejskaya-koshka-dikij-vzglyad.jpg?scale=1" alt="Маскот" width="100" height="100">   
+                            <a href="{% url 'members' %}" >Участники</a>
+                        </div>
+
+                        <div>
+                            <img class="fortune" src="https://wp-s.ru/wallpapers/5/18/289291145046987/evropejskaya-koshka-dikij-vzglyad.jpg?scale=1" alt="Маскот" width="100" height="100">   
+                            <a href="fortune" >Фортуна</a>
+                        </div>
+
+                        
+                    </section>
+
+
+
+
+                </div>
+
+            </div>
+        </div>
+    </main>
+{% endblock %}
